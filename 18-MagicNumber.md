@@ -5,7 +5,7 @@ This challenge requires us to call a function and pass in the address of a contr
 - Write and deploy a contract via bytecode alone
 - Understand the two parts(create and runtime) of the bytecode
 
-## The runtime bytecode:
+## Given code (runtime):
 ```
 Step1: PUSH1 '42' (0x2A) onto the stack
 
@@ -75,7 +75,7 @@ Complete bytecode is formed by concatinating the creation and runtime together (
 
 `0x600A600C600039600A6000F3602A60505260206050F3`
 
-## How to solve:
+## Hack:
 
 Within the ethernaut terminal we will deploy our contract via bytecode
 

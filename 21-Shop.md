@@ -2,7 +2,8 @@
 
 In this challenge we implement an interface and override the function. The real catch is that on the first call it must return a different value, than it does the second time. See the ternary operation.
 
-```// SPDX-License-Identifier: MIT
+```shell
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
 import "./Shop.sol";
@@ -24,6 +25,7 @@ contract ShopAttack is Buyer {
     }
 }
 ```
+## Hack:
 
 Step 1:
 

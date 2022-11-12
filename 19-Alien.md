@@ -1,6 +1,6 @@
 # Ethernaut challenge 19 Alien Codex
 
-## Steps:
+## Hack:
 
 - `await contract.make_contact()`// Change contract bool to true
 - `await web3.eth.getStorageAt(contract.address, 0, console.log);` // display current owner and bool (contact) value packed.
