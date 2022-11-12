@@ -1,4 +1,4 @@
-/*
+```shell
 pragma solidity 0.5.0;
 
 import "./CoinFlip.sol";
@@ -19,8 +19,8 @@ contract CoinFlipAttack {
         victimContract.flip(side);
     }
 }
-*/
+```
 
+## Hack: 
 
-//Entire file commented to prevent compiler version and import errors. This contract was deployed using remix browser editor.
-//Deploy w/ ethernaut victim contract instance address in constructor and call flip 10 times.
+Deploy w/ ethernaut victim contract instance address in constructor and call flip 10 times.

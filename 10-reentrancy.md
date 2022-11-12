@@ -1,4 +1,4 @@
-/*
+```shell
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
@@ -26,11 +26,19 @@ contract ReentrancyAttack {
         }
     }
 }
-*/
+```
 
-//Entire file commented to prevent compiler version and import errors. This contract was deployed using remix browser editor.
-//Deploy w/ ethernaut contract instance address as constructor arg.
-//Ensure to deploy w/ value of 1000000000000000 wei
+## Hack:
 
-//First donate to victim contract to satasfy withdraw req's
-//Then withdraw from victim -> this will call fallback -> which will recurssively call withdrawl in a preditory way.
+Step1:
+
+Deploy w/ ethernaut contract instance address as constructor arg.
+Ensure to deploy w/ value of 1000000000000000 wei
+
+Step2:
+
+First donate to victim contract to satasfy withdraw req's
+
+Step3:
+
+Then withdraw from victim -> this will call fallback -> which will recurssively call withdrawl in a preditory way.
